@@ -1,0 +1,5 @@
+sticky_newsletter:
+  js:
+    js/sticky_newsletter.js: {}
+  dependencies:
+    - core/drupalSettings

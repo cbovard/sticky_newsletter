@@ -1,0 +1,7 @@
+name: Sticky Newsletter
+type: module
+description: 'Provides a sticky newsletter block with configurable display settings.'
+package: Custom
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:block

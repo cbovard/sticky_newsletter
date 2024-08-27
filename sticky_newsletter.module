@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Contains sticky_newsletter.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function sticky_newsletter_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.sticky_newsletter':
+      return '<p>' . t('Provides a sticky newsletter block with configurable display settings.') . '</p>';
+  }
+}

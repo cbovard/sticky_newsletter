@@ -1,0 +1,7 @@
+sticky_newsletter.settings:
+  path: '/admin/config/content/sticky-newsletter'
+  defaults:
+    _form: '\Drupal\sticky_newsletter\Form\StickyNewsletterSettingsForm'
+    _title: 'Sticky Newsletter Settings'
+  requirements:
+    _permission: 'administer site configuration'
